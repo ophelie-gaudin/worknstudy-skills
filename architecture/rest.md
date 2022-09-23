@@ -6,10 +6,11 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les verbes HTTP ❌ / ✔️
+- les verbes HTTP ✔️ 
+:arrow_right: Voir les "Wilder routes" (l.39 à l.52) ex: https://github.com/ophelie-gaudin/wild-book_api_REST_node_typescript_sql_express/blob/main/src/index.ts)
 - les statuts HTTP ❌ / ✔️
-- les endpoints ❌ / ✔️
-- CORS ❌ / ✔️
+- les endpoints ✔️ 
+- CORS ✔️ (Installation du module CORS pour éviter les erreurs CORS : https://github.com/ophelie-gaudin/wild-book_api_REST_node_typescript_sql_express/blob/main/src/index.ts)
 - la nomenclature recommandée pour les routes ❌ / ✔️
 
 ## 💻 J'utilise
