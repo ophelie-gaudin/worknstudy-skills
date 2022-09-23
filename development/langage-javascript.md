@@ -6,9 +6,17 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les `structures` de base du langage ❌ / ✔️
+- les `structures` de base du langage ✔️
 - les normes `ecmascript` ❌ / ✔️
-- l'utilisation de l'`asynchrone` ❌ / ✔️
+- l'utilisation de l'`asynchrone` ✔️
+<br /> ➡️ Utilisation des fonctions async + de l'opérateur await, exemple issu d'<a href="https://github.com/ophelie-gaudin/wild-book_front_react_ts/blob/main/src/App.tsx">une application front React </a>:
+```
+  const fetch = async () => {
+    const wilders = await axios.get("http://localhost:5000/api/wilders");
+    console.log(wilders.data);
+    setWilders(wilders.data);
+  };
+```
 - les spécifités du mot-clef `this` ❌ / ✔️
 
 ## 💻 Je code en Javascript
